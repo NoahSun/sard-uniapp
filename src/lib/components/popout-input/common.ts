@@ -1,6 +1,7 @@
 import { type StyleValue } from 'vue'
+import { type InputProps } from '../input/common';
 
-export interface PopoutInputProps {
+export interface PopoutInputProps extends InputProps {
   rootStyle?: StyleValue
   rootClass?: string
   modelValue?: any
